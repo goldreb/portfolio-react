@@ -219,3 +219,29 @@ nav ul li {
   background: gold;
   border-bottom: 5px solid darkgoldenrod;
 }
+
+/****** Projects ****** */
+
+.project {
+  text-align: center;
+  padding-bottom: 2rem;
+  background: white !important;
+}
+
+.project h1 {
+  color: gold;
+  text-transform: uppercase;
+}
+
+.project .box {
+  height: 16rem;
+  border-bottom: 5px solid #94bcc0 !important;
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: rgb(238, 235, 235);
+}
+
+.project .box:hover {
+  background: #94bcc0;
+  border-bottom: 5px solid gold !important;
+}
