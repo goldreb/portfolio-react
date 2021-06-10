@@ -5,7 +5,7 @@
 } */
 
 body {
-  font-family: Roboto, san-serif;
+  font-family: "Roboto", sans-serif !important;
 }
 
 /************************** NAVBAR **************************/
@@ -19,6 +19,7 @@ nav a.nav-link {
   font-size: 0.8rem;
   letter-spacing: 0.037rem;
   cursor: pointer;
+  font-family: "Roboto", sans-serif;
 }
 
 nav ul li {
@@ -41,11 +42,10 @@ nav ul li {
   /* display: none; */
 }
 @media (max-width: 768px) {
-.navbar-brand {
-  width: 7rem;
+  .navbar-brand {
+    width: 7rem;
+  }
 }
-}
-
 
 .navbar {
   background-color: #94bcc0 !important;
@@ -147,5 +147,32 @@ nav ul li {
 @media (max-width: 768px) {
   .particles-canvas {
     display: none;
+  }
+}
+
+/****** About Me ****** */
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.profile-img {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid gold;
+}
+
+.about-heading {
+  color: gold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 469px) {
+  .profile-img {
+    width: 10rem;
   }
 }
