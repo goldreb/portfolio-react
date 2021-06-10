@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container">
         
            <a className="navbar-brand" href="#">
-               gold
+               gold 
                <span className="colorLetter">I</span>luck</a> 
           {/* <img className="logo" src={logo} alt="logo..." /> */}
         
