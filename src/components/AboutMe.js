@@ -18,7 +18,7 @@ const AboutMe = () => {
             technologies I use are MERN(MongodDb, Express, ReactJS and Nodejs).
             I also dabbled in Wordpress and Adobe Suites. I am very detail
             oreinted. I have a background in Apparel Design. Expert in clothing
-            alteration. I also teach sewing classes! A fast learner and
+            alterations. I also teach sewing classes! A fast learner and
             self-starter.
           </p>
         </div>
