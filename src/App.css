@@ -412,3 +412,29 @@ textarea.form-control {
     padding: 0 0.4rem;
   }
 }
+
+/*************** Footer ********************/
+
+.footer {
+  background: black;
+  color: darkgray;
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: darkgray;
+  font-family: Merriweather, sans-serif;
+  /* font-size: small; */
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: gold !important;
+  cursor: pointer;
+  font-family: Merriweather, sans-serif;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
