@@ -1,4 +1,6 @@
 import React from "react";
+import Project1 from "../images/carpeDiem.png";
+import Project2 from "../images/stashbusters.jpg";
 
 const Project = () => {
   return (
@@ -17,7 +19,11 @@ const Project = () => {
                     /> */}
                 </div>
                 <h3>Project 1</h3>
-                <p>insert images here. replace P tag</p>
+                <img
+                  className="project-image"
+                  src={Project1}
+                  alt="project1"
+                ></img>
               </div>
             </div>
             {/* - */}
@@ -31,7 +37,11 @@ const Project = () => {
                   /> */}
                 </div>
                 <h3>Project 2</h3>
-                <p>insert images here. replace P tag</p>
+                <img
+                  className="project-image"
+                  src={Project2}
+                  alt="project2"
+                ></img>
               </div>
             </div>
             {/* - */}
@@ -45,7 +55,9 @@ const Project = () => {
                   {/* /> */}
                 </div>
                 <h3>Project 3</h3>
-                <p>insert image here. replace P tag</p>
+                <p className="project-image">
+                  insert images here. replace P tag
+                </p>
               </div>
             </div>
             {/* - */}
@@ -59,7 +71,9 @@ const Project = () => {
                     /> */}
                 </div>
                 <h3>Project 4</h3>
-                <p>insert images here. replace P tag</p>
+                <p className="project-image">
+                  insert images here. replace P tag
+                </p>
               </div>
             </div>
           </div>

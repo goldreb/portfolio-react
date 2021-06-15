@@ -212,6 +212,7 @@ nav ul li {
   border-bottom: 5px solid gold;
   padding: 0.625rem;
   margin-bottom: 1.875rem;
+  transition: 0.3s ease-in-out;
   /* background: white; */
 }
 
@@ -228,20 +229,82 @@ nav ul li {
   background: white !important;
 }
 
+.project-image {
+  width: 15rem;
+  border: 1px solid gold;
+  padding: 0 0.5rem;
+  /* height: 16rem; */
+  border-bottom: 5px solid #94bcc0 !important;
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: rgb(238, 235, 235);
+  transition: 0.3s ease-in-out;
+
+}
 .project h1 {
   color: gold;
   text-transform: uppercase;
 }
-
+/* 
 .project .box {
   height: 16rem;
   border-bottom: 5px solid #94bcc0 !important;
   padding: 0.625rem;
   margin-bottom: 1.875rem;
   background: rgb(238, 235, 235);
-}
+  transition: 0.3s ease-in-out;
+} */
 
 .project .box:hover {
   background: #94bcc0;
   border-bottom: 5px solid gold !important;
+}
+
+/********  Mini Project Portfolio   ***********/
+
+.portfolio-wrapper {
+  background: #94bcc0 !important;
+  padding: 3rem 0;
+}
+
+.portfolio-image {
+  width: 15rem;
+  border: 1px solid gold;
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: white;
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid goldenrod;
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+}
+
+.portfolio-icon {
+  position: absolute;
+  opacity: 0;
+  margin-left: -8rem;
+  margin-top: 3.6rem;
+  color: gold;
+  font-size: 1.5rem;
+}
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
