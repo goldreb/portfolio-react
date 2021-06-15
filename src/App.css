@@ -239,7 +239,6 @@ nav ul li {
   margin-bottom: 1.875rem;
   background: rgb(238, 235, 235);
   transition: 0.3s ease-in-out;
-
 }
 .project h1 {
   color: gold;
@@ -307,4 +306,109 @@ nav ul li {
   opacity: 60%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+/**********  Contacts  ********/
+.contacts {
+  background: rgb(53, 52, 52) !important;
+  padding: 3rem 0;
+}
+
+.contacts h1 {
+  color: gold;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+.contacts p {
+  color: rgb(201, 200, 200);
+  font-size: 1.2rem;
+}
+
+/**********  input ********/
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border-bottom: 0.125rem solid darkgray;
+  border-radius: 0;
+  color: gold;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  background: transparent;
+  color: gold;
+  border-bottom: 0.125rem solid darkgray;
+}
+
+.contacts textarea {
+  height: 12.2rem !important;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  background: none;
+}
+
+.line {
+  position: relative;
+  top: -0.8rem;
+  width: 0;
+  height: 0.125rem;
+  background: gold;
+  display: inline-block;
+}
+
+input:focus + .line,
+textarea:focus + .line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+input.form-control {
+  margin: -0.3rem 0;
+}
+
+textarea.form-control {
+  margin: -0.3rem 0;
+}
+
+.error-message {
+  color: white;
+  background: red;
+  text-align: left;
+}
+
+.success-message {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: green;
+}
+
+/*************** Media ********************/
+
+@media (max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
 }

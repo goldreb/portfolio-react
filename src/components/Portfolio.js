@@ -8,7 +8,7 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 
 
 //react pop-up box -Work in Progress....
-import { PopupboxManager, PopupoxContainer } from "react-popupbox";
+// import { PopupboxManager, PopupoxContainer } from "react-popupbox";
 
 const Portfolio = () => {
   return (
