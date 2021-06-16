@@ -4,7 +4,7 @@ import Project2 from "../images/stashbusters.jpg";
 
 const Project = () => {
   return (
-    <div className="project">
+    <div id="projects" className="project">
       <h1 className="py-5">projects</h1>
       <div className="py-5">
         <div className="container">
