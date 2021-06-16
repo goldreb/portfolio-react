@@ -1,14 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faShopify,
-  faWordpress,
-} from "@fortawesome/free-brands-svg-icons";
+import { faShopify, faWordpress } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   return (
-    <div className="services">
+    <div id="services" className="services">
       <h1 className="py-5">Services Offered</h1>
       <div className="py-5">
         <div className="container">

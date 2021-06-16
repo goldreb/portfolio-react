@@ -6,14 +6,13 @@ import GeneratePass from "../images/generatedPassword.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 
-
 //react pop-up box -Work in Progress....
 // import { PopupboxManager, PopupoxContainer } from "react-popupbox";
 
 const Portfolio = () => {
   return (
     <div>
-      <div className="portfolio-wrapper">
+      <div id="portfolio" className="portfolio-wrapper">
         <div className="container">
           <h1 className="text-uppercase text-center py-5">mini projects</h1>
           <div className="image-box-wrapper row justify-content-center">
