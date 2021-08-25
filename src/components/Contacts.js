@@ -60,7 +60,7 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Name"
                   name="name"
-                  aria-invalid={errors.name ? "ture" : "false"}
+                  aria-invalid={errors.name ? "true" : "false"}
                   {...register("name", {
                     required: "Please enter your name",
                     maxLength: {
@@ -84,7 +84,7 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Phone Number"
                   name="phone"
-                  aria-invalid={errors.phone ? "ture" : "false"}
+                  aria-invalid={errors.phone ? "true" : "false"}
                   {...register("phone", {
                     required: "please add you phone number",
                   })}
@@ -103,7 +103,7 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Email"
                   name="email"
-                  aria-invalid={errors.email ? "ture" : "false"}
+                  aria-invalid={errors.email ? "true" : "false"}
                   {...register("email", {
                     required: "please provide your email",
                     pattern: {
@@ -126,7 +126,7 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="Subject"
                   name="subject"
-                  aria-invalid={errors.subject ? "ture" : "false"}
+                  aria-invalid={errors.subject ? "true" : "false"}
                   {...register("subject", {
                     required: "You forgot to tell me what!",
                   })}
@@ -147,7 +147,7 @@ const Contacts = () => {
                   className="form-control"
                   placeholder="message"
                   name="description"
-                  aria-invalid={errors.description ? "ture" : "false"}
+                  aria-invalid={errors.description ? "true" : "false"}
                   {...register("description", {
                     required: "A sentence would be nice!",
                   })}

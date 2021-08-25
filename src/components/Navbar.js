@@ -2,8 +2,8 @@ import React from "react";
 import logo from "../logo.jpg";
 import { Link } from "react-scroll";
 // REACT FONTAWESOME IMPORTS
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -15,17 +15,8 @@ const Navbar = () => {
         </a>
         {/* <img className="logo" src={logo} alt="logo..." /> */}
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
-        </button>
+       
+
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
