@@ -1,6 +1,7 @@
 import React from "react";
 import Project1 from "../images/carpeDiem.png";
 import Project2 from "../images/stashbusters.jpg";
+import Project3 from "../images/sable.png";
 
 const Project = () => {
   return (
@@ -23,7 +24,7 @@ const Project = () => {
                   className="project-image"
                   src={Project1}
                   alt="project1"
-                  url="https://damp-hollows-69227.herokuapp.com/"
+                  
                 ></img>
               </div>
             </div>
@@ -56,9 +57,12 @@ const Project = () => {
                   {/* /> */}
                 </div>
                 <h3>Project 3</h3>
-                <p className="project-image">
-                  insert images here. replace P tag
-                </p>
+                <img className="project-image"
+                src={Project3}
+                alt="project3"
+                href="https://damp-hollows-69227.herokuapp.com/">
+          
+                </img>
               </div>
             </div>
             {/* - */}
