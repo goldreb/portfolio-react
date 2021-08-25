@@ -63,7 +63,7 @@ const Navbar = () => {
                 className="nav-link"
                 href="#"
               >
-                mini projects
+                mini project
               </Link>
             </li>
 
@@ -75,7 +75,7 @@ const Navbar = () => {
                 className="nav-link"
                 href="#"
               >
-                contact
+                contacts
               </Link>
             </li>
           </ul>
