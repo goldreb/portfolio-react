@@ -23,6 +23,7 @@ const Project = () => {
                   className="project-image"
                   src={Project1}
                   alt="project1"
+                  url="https://damp-hollows-69227.herokuapp.com/"
                 ></img>
               </div>
             </div>

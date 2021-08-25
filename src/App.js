@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Particles from "react-particles-js";
 import AboutMe from "./components/AboutMe";
-import Services from "./components/Services";
+// import Services from "./components/Services";
 import Project from "./components/Project";
-import Portfolio from "./components/Portfolio";
+import MiniProjects from "./components/MiniProject";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 
@@ -37,9 +37,9 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
-      <Services />
+      {/* <Services /> */}
       <Project />
-      <Portfolio />
+      <MiniProjects />
       <Contacts />
       <Footer />
     </div>
