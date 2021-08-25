@@ -16,7 +16,7 @@ const AboutMe = () => {
           <p>
             Hello! I am Goldiluck. I am a full stack web developer. The
             technologies I use are MERN(MongodDb, Express, ReactJS and Nodejs).
-            I also dabbled in Wordpress, Shopify Design, and Adobe Suites. I am
+            I also dabbled in Wordpress and Adobe Suites. I am
             very detail oreinted. I have a background in Apparel Design. Expert
             in clothing alterations. I also teach sewing classes! A fast learner
             and self-starter.
