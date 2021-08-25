@@ -2,6 +2,7 @@ import React from "react";
 import Project1 from "../images/carpeDiem.png";
 import Project2 from "../images/stashbusters.jpg";
 import Project3 from "../images/sable.png";
+import { Link } from "react-scroll";
 
 const Project = () => {
   return (
@@ -59,10 +60,12 @@ const Project = () => {
                 <h3>Project 3</h3>
                 <img className="project-image"
                 src={Project3}
-                alt="project3"
-                href="https://damp-hollows-69227.herokuapp.com/">
-          
+                alt="project3">
+               
                 </img>
+                <Link smooth={true} to="home" className="nav-link" href="https://damp-hollows-69227.herokuapp.com/">
+                Sable <span className="sr-only">(current)</span>
+              </Link>
               </div>
             </div>
             {/* - */}
