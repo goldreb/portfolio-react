@@ -9,7 +9,7 @@ import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 //react pop-up box -Work in Progress....
 // import { PopupboxManager, PopupoxContainer } from "react-popupbox";
 
-const Portfolio = () => {
+const MiniProject = () => {
   return (
     <div>
       <div id="portfolio" className="portfolio-wrapper">
@@ -52,4 +52,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default MiniProject;

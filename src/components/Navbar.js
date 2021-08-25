@@ -15,9 +15,6 @@ const Navbar = () => {
         </a>
         {/* <img className="logo" src={logo} alt="logo..." /> */}
 
-       
-
-
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
@@ -66,7 +63,7 @@ const Navbar = () => {
                 className="nav-link"
                 href="#"
               >
-               mini projects
+                mini projects
               </Link>
             </li>
 
