@@ -30,14 +30,14 @@ const Footer = () => {
                 <a className="footer-nav">Home</a>
                 <br />
                 <a className="footer-nav">About me</a>
-                <br />
-                <a className="footer-nav">Services</a>
-                <br />
+                {/* <br /> */}
+                {/* <a className="footer-nav">Services</a> */}
+                {/* <br /> */}
               </div>
               <div className="col">
                 <a className="footer-nav">Projects</a>
                 <br />
-                <a className="footer-nav">Portfolio</a>
+                <a className="footer-nav">Mini Project</a>
                 <br />
                 <a className="footer-nav">Contacts</a>
               </div>

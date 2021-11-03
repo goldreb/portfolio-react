@@ -63,9 +63,10 @@ const Project = () => {
                 alt="project3">
                
                 </img>
-                <Link smooth={true} to="home" className="nav-link" href="https://damp-hollows-69227.herokuapp.com/">
+                <Link smooth={true} url="https://damp-hollows-69227.herokuapp.com/" className="nav-link" href="https://damp-hollows-69227.herokuapp.com/">
                 Sable <span className="sr-only">(current)</span>
               </Link>
+              
               </div>
             </div>
             {/* - */}
